@@ -1,0 +1,18 @@
+/* google fonts
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #22b0f0;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #ce21bb;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: lightcoral;
+}
