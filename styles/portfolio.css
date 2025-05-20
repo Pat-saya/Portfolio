@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #d2daff;
-  --secondary-color: #aac4ff;
+  --branding-color: #FEFEC9;
+  --secondary-color: #FFB95B;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -64,15 +64,28 @@ h6 {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
+
+.btn-branding:hover {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+}
+
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--secondary-color);
+  color: white;
 }
 .project-description {
   padding: 30px;
@@ -124,14 +137,12 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: black;
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
-
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 footer {
   margin: 60px 0;
